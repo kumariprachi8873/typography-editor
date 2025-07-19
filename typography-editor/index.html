@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typography Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📝 Typography Editor</h1>
+
+  <div class="controls">
+    <textarea id="textInput" placeholder="Type your text here...">Hello</textarea>
+
+    <div>
+      <label for="direction">Text Direction:</label>
+      <select id="direction">
+        <option value="horizontal">Horizontal</option>
+        <option value="vertical">Vertical</option>
+      </select>
+    </div>
+  </div>
+
+  <canvas id="textCanvas" width="800" height="400"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
